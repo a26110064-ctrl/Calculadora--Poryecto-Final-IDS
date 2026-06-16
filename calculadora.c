@@ -66,6 +66,7 @@ break;
 
 case 4:
 
+printf("\nGracias por usar la calculadora\n");
 
 if(num2!=0)
 {
@@ -97,4 +98,16 @@ printf("Opcion incorrecta");
 
 return 0;
 
+printf("=========================\n");
+printf("   CALCULADORA DIGITAL\n");
+printf("=========================\n");
+
+
+printf("Seleccione una operacion:\n");
+
+printf("1. Suma\n");
+printf("2. Resta\n");
+printf("3. Multiplicacion\n");
+printf("4. Division\n");
 }
+
