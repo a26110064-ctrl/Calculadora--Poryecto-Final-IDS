@@ -30,7 +30,70 @@ scanf("%f",&num1);
 printf("Ingrese segundo numero: ");
 scanf("%f",&num2);
 
+switch(opcion)
+{
 
+
+case 1:
+
+resultado=num1+num2;
+
+printf("Resultado: %.2f",resultado);
+
+break;
+
+
+
+case 2:
+
+resultado=num1-num2;
+
+printf("Resultado: %.2f",resultado);
+
+break;
+
+
+
+case 3:
+
+resultado=num1*num2;
+
+printf("Resultado: %.2f",resultado);
+
+break;
+
+
+
+case 4:
+
+
+if(num2!=0)
+{
+
+resultado=num1/num2;
+
+printf("Resultado: %.2f",resultado);
+
+}
+
+else
+{
+
+printf("Error: division entre cero");
+
+}
+
+
+break;
+
+
+
+default:
+
+printf("Opcion incorrecta");
+
+
+}
 
 return 0;
 
