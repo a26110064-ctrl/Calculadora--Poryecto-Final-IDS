@@ -1,0 +1,21 @@
+PROYECTO CALCULADORA GIT
+
+
+Integrantes:
+
+Juan Pablo
+Gael
+Folle
+Luis Fernando
+
+
+Funciones del programa:
+
+- Suma
+- Resta
+- Multiplicacion
+- Division
+
+
+El proyecto fue desarrollado utilizando Git
+para controlar versiones y trabajar en equipo.
